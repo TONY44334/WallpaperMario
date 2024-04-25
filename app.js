@@ -15,7 +15,7 @@ hamInit.addEventListener( "click", ()=>{
      logo.classList.toggle('logo-active');
      hamInit.classList.toggle('.ham-init-exp');
 });
-const nodelist = document.querySelectorAll(".imgs");
+const nodelist = document.querySelectorAll(".images");
 nodelist.forEach(function (i) {
   i.addEventListener("click", function () {
     window.location.assign(this.src);
