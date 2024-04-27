@@ -1,6 +1,8 @@
 body::-webkit-scrollbar , html::-webkit-scrollbar{
     display: none;
 }
+*{scroll-behavior: smooth;
+}
 @font-face {
 
     font-family: 'pdark';
@@ -51,6 +53,8 @@ html , body{
     margin-top: none;
     background: #fff;
     cursor:auto;
+    scroll-behavior: smooth;
+    transition: smooth;
    
 }
 .logo ,.nav-links,.ham-init{
